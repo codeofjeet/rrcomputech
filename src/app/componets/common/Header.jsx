@@ -133,13 +133,6 @@ export default function Header() {
           </div>
 
           <Link
-            href="/projects"
-            className="text-white hover:text-pink-400 transition duration-300 font-medium"
-          >
-            Projects
-          </Link>
-
-          <Link
             href="/contact-us"
             className="text-white hover:text-pink-400 transition duration-300 font-medium"
           >
@@ -191,7 +184,6 @@ export default function Header() {
       </div>
 
       {/* Mobile Menu */}
-      {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden bg-slate-900 px-6 py-5 space-y-4">
           <Link href="/" className="block text-white hover:text-pink-400">
@@ -206,10 +198,10 @@ export default function Header() {
           </Link>
 
           <Link
-            href="/product-server"
-            className="block text-white hover:text-pink-400"
+            href="/gallery"
+            className="block text-white hover:text-pink-400 transition duration-300 font-medium"
           >
-            Server
+            Gallery
           </Link>
 
           {/* Mobile Courses Dropdown */}
@@ -279,13 +271,6 @@ export default function Header() {
               </div>
             )}
           </div>
-
-          <Link
-            href="/projects"
-            className="block text-white hover:text-pink-400"
-          >
-            Projects
-          </Link>
 
           <Link
             href="/contact-us"

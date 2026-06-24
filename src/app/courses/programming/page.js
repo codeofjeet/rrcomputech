@@ -15,7 +15,7 @@ export default function Programming() {
        title: "C++ Programming",
        description:
          "C++ is a powerful object-oriented programming language used for software development, games, applications, and system programming.",
-          link: "#",
+          link: "/courses/programming/cpp-programming",
      },
      {
        image: "/cSharp.jpg",

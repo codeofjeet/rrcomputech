@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function CProgramming() {
+export default function CPlusProgramming() {
   return (
     <main className="bg-slate-50 min-h-screen py-12">
       <section className="max-w-7xl mx-auto px-4">
@@ -13,40 +13,40 @@ export default function CProgramming() {
               </span>
 
               <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-                Why Learn C Programming?
+                Why Learn C++ Programming?
               </h1>
 
               <p className="text-gray-600 text-lg leading-8">
-                C programming is one of the most important and widely used
-                programming languages in the world. It provides a strong
-                foundation for learning advanced programming concepts and is
-                commonly used in operating systems, embedded systems,
-                compilers, databases, and software development.
+                C++ is one of the most powerful and widely used programming
+                languages in the world. It is an extension of the C language
+                and supports Object-Oriented Programming (OOP), making it
+                suitable for developing complex software applications.
               </p>
 
               <p className="text-gray-600 text-lg leading-8 mt-5">
-                Understanding C helps students improve problem-solving skills,
-                memory management knowledge, and logical thinking. Many modern
-                programming languages such as C++, Java, and C# are influenced
-                by C, making it an excellent starting point for every aspiring
-                programmer.
+                C++ is commonly used in game development, system software,
+                desktop applications, embedded systems, graphics programming,
+                and competitive programming. Learning C++ helps students
+                understand data structures, algorithms, memory management,
+                and object-oriented concepts that are essential for modern
+                software development.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3">
                 <span className="bg-blue-600 text-white px-4 py-2 rounded-full">
-                  Pointers
+                 OOP
                 </span>
 
                 <span className="bg-blue-600 text-white px-4 py-2 rounded-full">
-                  Arrays
+                Classes
                 </span>
 
                 <span className="bg-blue-600 text-white px-4 py-2 rounded-full">
-                  Functions
+                Inheritance
                 </span>
 
                 <span className="bg-blue-600 text-white px-4 py-2 rounded-full">
-                  Data Structures
+                  Polymorephism
                 </span>
               </div>
             </div>
@@ -54,8 +54,8 @@ export default function CProgramming() {
             {/* Image Section */}
             <div className="p-6 flex items-center justify-center bg-slate-100">
               <Image
-                src="/cProgram.jpg"
-                alt="C Programming Course"
+                src="/cPlusProgram.jpg"
+                alt="C++ Programming Course"
                 width={700}
                 height={900}
                 priority

@@ -62,13 +62,13 @@ export default function Footer() {
 
             <li>
               <a href="#" className="hover:text-pink-400 transition">
-                Courses
+                Gallery
               </a>
             </li>
 
             <li>
               <a href="#" className="hover:text-pink-400 transition">
-                Projects
+                Courses
               </a>
             </li>
 
